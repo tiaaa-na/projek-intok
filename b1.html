@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Portal KIPK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .content-section {
+            margin-bottom: 30px;
+        }
+        .content-section h2 {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
+        }
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #0073e6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portal Informasi Mahasiswa KIPK</h1>
+        <p>Selamat Datang di Portal Resmi Kartu Indonesia Pintar Kuliah (KIPK)</p>
+    </header>
+
+    <!-- Navigasi Horizontal -->
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Data Mahasiswa</a>
+        <a href="#">Prestasi</a>
+        <a href="#">Panduan</a>
+        <a href="#">Kontak Kami</a>
+    </nav>
+
+    <div class="container">
+        <!-- Bagian Informasi Utama -->
+        <div class="content-section">
+            <h2>Informasi Terbaru</h2>
+            <p>Portal KIPK adalah platform yang memberikan informasi terkini seputar mahasiswa penerima KIPK, data prestasi, serta fasilitas pengelolaan data secara mandiri oleh mahasiswa.</p>
+        </div>
+
+        <!-- Bagian Kartu Informasi -->
+        <div class="content-section">
+            <h2>Layanan Utama</h2>
+            <div class="card-container">
+                <!-- Card Data Mahasiswa -->
+                <div class="card">
+                    <h3>Data Mahasiswa</h3>
+                    <p>Akses informasi detail mengenai data mahasiswa penerima KIPK. Anda dapat melihat, memperbarui, dan mengelola informasi pribadi secara mandiri.</p>
+                    <a href="#">Lihat Data Mahasiswa</a>
+                </div>
+
+                <!-- Card Prestasi Mahasiswa -->
+                <div class="card">
+                    <h3>Prestasi Mahasiswa</h3>
+                    <p>Lihat dan tambahkan informasi prestasi yang telah dicapai oleh mahasiswa penerima KIPK. Prestasi ini akan tercatat dalam data resmi mahasiswa.</p>
+                    <a href="#">Kelola Prestasi</a>
+                </div>
+
+                <!-- Card Panduan KIPK -->
+                <div class="card">
+                    <h3>Panduan KIPK</h3>
+                    <p>Temukan panduan lengkap tentang penggunaan portal KIPK, syarat penerimaan, dan prosedur administrasi lainnya.</p>
+                    <a href="#">Baca Panduan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Portal KIPK - All Rights Reserved
+    </footer>
+
+</body>
+</html>
